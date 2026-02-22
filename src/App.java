@@ -5,11 +5,13 @@ public class App {
         } else {
             System.out.println(n);
             countDown(n - 1);
+            System.out.println(n);
         }
         return n;
     }
+    
 
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        System.out.println(countDown(5));
     }
 }
