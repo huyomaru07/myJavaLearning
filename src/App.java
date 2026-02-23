@@ -9,17 +9,7 @@ public class App {
         }
         return n;
     }
-    public static int removeEven(int[] arr, int index) {
-        if (index >= arr.length) {
-            return 0;
-        }
-        int count = removeEven(arr, index + 1);
-        if (arr[index] % 2 == 0) {
-            return count + 1;
-        } else {
-            return count;
-        }
-    }
+    
     
 
     public static void main(String[] args) throws Exception {
